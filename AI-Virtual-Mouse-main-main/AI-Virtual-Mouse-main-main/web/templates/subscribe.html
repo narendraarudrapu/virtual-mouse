@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Subscribe{% endblock %}
+{% block content %}
+<h2>Choose a subscription</h2>
+<p class="muted">You have a 10-day free trial from signup. Pick a plan to continue after trial.</p>
+<form method="post">
+  <label>Plan</label>
+  <select name="plan">
+    <option value="basic">Basic — low cost — ${{ '%.2f'|format(plan_prices['basic']) if plan_prices and 'basic' in plan_prices else '4.99' }}/month</option>
+    <option value="pro">Pro — popular — ${{ '%.2f'|format(plan_prices['pro']) if plan_prices and 'pro' in plan_prices else '9.99' }}/month</option>
+    <option value="enterprise">Enterprise — advanced — ${{ '%.2f'|format(plan_prices['enterprise']) if plan_prices and 'enterprise' in plan_prices else '19.99' }}/month</option>
+  </select>
+  <p class="muted">(This example does not include real payment processing.)</p>
+  <button type="submit">Subscribe</button>
+</form>
+{% endblock %}

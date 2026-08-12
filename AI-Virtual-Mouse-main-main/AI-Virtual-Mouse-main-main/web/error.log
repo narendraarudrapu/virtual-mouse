@@ -1,0 +1,1418 @@
+2026-04-08 16:41:52,605 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:43:13,841 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:43:55,858 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:45:19,959 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:45:20,173 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:45:35,579 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return render_template('subscribe.html', user=user, prices=PRICES, stripe_pub=STRIPE_PUBLISHABLE_KEY)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:46:50,476 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return redirect(url_for('dashboard'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:46:51,451 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return redirect(url_for('dashboard'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:46:51,844 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return redirect(url_for('dashboard'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:46:56,276 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return redirect(url_for('dashboard'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:48:39,341 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    return redirect(url_for('dashboard'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:50:01,301 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:50:04,538 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:50:08,380 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:51:39,902 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: subscribe.html
+2026-04-08 16:53:02,141 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:53:38,502 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:54:20,447 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:54:32,303 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:54:33,301 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:54:33,987 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:55:03,288 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:14,547 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:14,710 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:15,573 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:16,038 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:28,714 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:29,170 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:29,795 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:30,321 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:34,734 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:35,396 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:56:37,259 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:38,121 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:56:39,326 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:56:39,985 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-08 16:56:48,328 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 16:59:03,374 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:07,977 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:08,793 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:08,948 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,127 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,253 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,423 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,559 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,709 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:09,857 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:10,019 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:10,187 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice
+2026-04-08 17:03:10,393 ERROR Unhandled exception
+Traceback (most recent call last):
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\app.py", line 351, in subscribe
+    @app.route('/phonepay', methods=['GET', 'POST'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\KANTI VARUN VENKAT\OneDrive\Desktop\AI-Virtual-Mouse-main\web\templates\subscribe.html", line 57, in template
+    {% block title %}Subscribe{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: block 'title' defined twice

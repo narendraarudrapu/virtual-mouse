@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h2>Welcome {{ user.email }}</h2>
+{% if user.subscription_plan == 'trial' %}
+  <p>You are on a free trial. Days remaining: <strong>{{ remaining }}</strong></p>
+  <p class="muted">After the trial ends you'll need to select a subscription to continue.</p>
+  <p><a href="{{ url_for('subscribe') }}">Choose a plan</a></p>
+{% else %}
+  <p>Current plan: <strong>{{ user.subscription_plan|capitalize }}</strong></p>
+  <p>Subscription active: {{ 'Yes' if user.subscription_active else 'No' }}</p>
+  <p>Amount charged: <strong>${{ '%.2f'|format(user['subscription_price'] if user['subscription_price'] else 0.0) }}</strong> per month</p>
+  <p><a href="{{ url_for('subscribe') }}">Manage subscription</a></p>
+{% endif %}
+{% endblock %}

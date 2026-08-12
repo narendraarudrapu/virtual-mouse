@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<style>
+  body{background: linear-gradient(135deg,#89f7fe 0%,#66a6ff 100%);} .card{background: rgba(255,255,255,0.92)}
+</style>
+<h2>Login</h2>
+<form method="post">
+  <label>Email</label>
+  <input type="text" name="email" required>
+  <label>Password</label>
+  <input type="password" name="password" required>
+  <button type="submit">Login</button>
+</form>
+<div class="center" style="margin-top:8px; gap:10px">
+  <a href="{{ url_for('login_google') }}" style="text-decoration:none">
+    <button type="button" style="display:flex;align-items:center;gap:8px;background:#ffffff;color:#000;border:1px solid #e6e9ef;padding:8px 12px;border-radius:8px">
+      <img src="{{ url_for('static', filename='images/google.svg') }}" alt="Google" style="width:18px;height:18px"> Sign in with Google
+    </button>
+  </a>
+  <a href="{{ url_for('login_microsoft') }}" style="text-decoration:none">
+    <button type="button" style="display:flex;align-items:center;gap:8px;background:#ffffff;color:#000;border:1px solid #e6e9ef;padding:8px 12px;border-radius:8px">
+      <img src="{{ url_for('static', filename='images/microsoft.svg') }}" alt="Microsoft" style="width:18px;height:18px"> Sign in with Microsoft
+    </button>
+  </a>
+</div>
+<p class="muted">Don't have an account? <a href="{{ url_for('signup') }}">Sign up</a></p>
+{% endblock %}
